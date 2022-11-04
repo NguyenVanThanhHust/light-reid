@@ -31,7 +31,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 from timm.data import IMAGENET_DEFAULT_MEAN, IMAGENET_DEFAULT_STD
-from timm.models.helpers import build_model_with_cfg, overlay_external_default_cfg
+from timm.models.helpers import build_model_with_cfg
 from timm.models.layers import PatchEmbed, Mlp, DropPath, trunc_normal_, lecun_normal_
 from timm.models.registry import register_model
 
@@ -414,7 +414,7 @@ def _create_vision_transformer(variant, pretrained=False, default_cfg=None, **kw
 
     model = build_model_with_cfg(
         VisionTransformer, variant, pretrained,
-        default_cfg=default_cfg,
+        pretrained_cfg=default_cfg,
         representation_size=repr_size,
         pretrained_filter_fn=checkpoint_filter_fn,
         **kwargs)

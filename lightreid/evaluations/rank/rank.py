@@ -173,9 +173,9 @@ class PreRecEvaluator(BaseEvaluator):
         thresholds = np.linspace(1.0, 0.0, num=21)
 
         '''compute distance matrix'''
-        if self.metric is 'cosine':
+        if self.metric == 'cosine':
             scores = self.cosine_dist(query_features, gallery_features)
-        elif self.metric is 'euclidean':
+        elif self.metric == 'euclidean':
             scores = self.euclidean_dist(query_features, gallery_features)
         else:
             assert 0, 'dist type error'

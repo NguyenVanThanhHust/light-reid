@@ -1,74 +1,74 @@
 # default dataset paths
 # please udpate to your own paths
 
-root_path: '../Datasets/'
+root_path: '../../../Datasets/'
 
 market1501:
-  path: '../Datasets/'
+  path: '../../../Datasets/'
   folder: 'Market-1501-v15.09.15'
   download: True # if dataset not in path, automatically download and extract
 
 dukemtmcreid:
-  path: '../Datasets/'
+  path: '../../../Datasets/'
   folder: 'DukeMTMC-reID'
   download: False
 
 msmt17:
-  path: '../Datasets/'
+  path: '../../../Datasets/'
   folder: 'MSMT17_V1'
   download: False
 
 cuhk03:
-  path: '../Datasets/'
+  path: '../../../Datasets/'
   folder: 'cuhk03_release'
   download: False
 
 wildtrack_crop:
-  path: '../Datasets/'
+  path: '../../../Datasets/'
   folder: 'Wildtrack_crop_dataset/crop'
   download: False
 
 rap:
-  path: '../Datasets/'
+  path: '../../../Datasets/'
   folder: 'rap/ids/'
   download: False
 
 njust365:
-  path: '../Datasets/'
+  path: '../../../Datasets/'
   folder: 'njust365'
   download: False
 
 njust365spr:
-  path: '../Datasets/'
+  path: '../../../Datasets/'
   folder: 'njust365'
   download: False
 
 njust365win:
-  path: '../Datasets/'
+  path: '../../../Datasets/'
   folder: 'njust365'
   download: False
 
 airportalert:
-  path: '../Datasets/'
+  path: '../../../Datasets/'
   folder: 'airport'
   download: False
 
 prid:
-  path: '../Datasets/'
+  path: '../../../Datasets/'
   folder: 'prid'
   download: False
 
 occludedreid:
-  path: '../Datasets/'
+  path: '../../../Datasets/'
   folder: 'Occluded_REID'
   download: False
 
 partialreid:
-  path: '../Datasets/'
+  path: '../../../Datasets/'
   folder: 'PartialREID'
   download: False
 
 partialilids:
-  path: '../Datasets/'
+  path: '../../../Datasets/'
   folder: 'Partial_iLIDS'
   download: False
