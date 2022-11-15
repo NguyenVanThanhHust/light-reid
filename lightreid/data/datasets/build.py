@@ -10,6 +10,7 @@ from .prid import PRID
 from .occluded_reid import OccludedReID
 from .partial_ilids import PartialILIDS
 from .partial_reid import PartialReID
+from .prw import PRW 
 
 import yaml
 from os.path import realpath, dirname, join
@@ -34,6 +35,7 @@ __datasets_factory = {
     'occludedreid': OccludedReID,
     'partialreid': PartialReID,
     'partialilids': PartialILIDS,
+    'PRW': PRW
 }
 
 

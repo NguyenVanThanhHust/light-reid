@@ -10,11 +10,13 @@ from .prid import PRID
 from .occluded_reid import OccludedReID
 from .partial_ilids import PartialILIDS
 from .partial_reid import PartialReID
+from .prw import PRW
 
 from .build import build_train_dataset, build_test_dataset
 
 
 __all__ = [
+    'PRW', 
     'Market1501', 'DukeMTMCreID', 'MSMT17', 'CUHK03', 'WildTrackCrop', 'RAP',
     'NJUST365', 'NJUST365WIN', 'NJUST365SPR', 'AirportAlert', 'PRID',
     'OccludedReID', 'PartialILIDS', 'PartialReID',

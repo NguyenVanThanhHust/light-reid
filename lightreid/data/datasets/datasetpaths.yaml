@@ -72,3 +72,8 @@ partialilids:
   path: '../../../Datasets/'
   folder: 'Partial_iLIDS'
   download: False
+
+PRW:
+  path: '../../../Datasets/'
+  folder: 'PRW-v16.04.20'
+  download: False
